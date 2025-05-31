@@ -44,6 +44,7 @@ function App() {
             placeholder="Enter Mobile Number"
             value={mobile}
             onChange={(e) => setMobile(e.target.value)}
+            required
           />
           <br />
           <br />
